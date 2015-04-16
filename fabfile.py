@@ -12,3 +12,4 @@ def update():
     print 'latest version: {0}'.format(latest_version)
     local('cp -r ace-builds-master/src-min-noconflict/* .')
     local('rm -rf ace-builds-master/')
+    local('rm worker-*')
